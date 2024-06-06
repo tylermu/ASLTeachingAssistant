@@ -18,7 +18,7 @@ This web application uses handfree.js to track the users hand and displays a vis
 
 ### Executing program
 
-* Simply open the code to the HTML file (index.html) and run it on a live server
+* Simply run the HTML file (index.html) on a live server
   
 ## Authors
 
