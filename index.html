@@ -1,0 +1,29 @@
+<head>
+  <!--Handsfree.js-->
+  <link rel="stylesheet" href="https://unpkg.com/handsfree@8.5.1/build/lib/assets/handsfree.css" />
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://unpkg.com/handsfree@8.5.1/build/lib/handsfree.js"></script>
+</head>
+
+<body>
+  <!--Current way to display correct sign-->
+  <div id="dynamicText">
+    <span>The current sign is: </span><span id="textElement">N/A</span>
+  </div>
+  <!--Images used for bounding the asl signs-->
+  <img class="image" id="imageC" src="C.jpg" alt="Center Image of 'C' ASL sign">
+  <img class="image" id="imageB" src="B.jpg" alt="Center Image of 'B' ASL sign">
+  <img class="image" id="imageA" src="A.jpg" alt="Center Image of 'A' ASL sign">
+  <!--Question mark to explain the nuances of the program-->
+  <div id="questionMark">?</div>
+  <div id="infoText">
+    Quick user guide:<br>
+    Press <b>A</b> to display the ASL sign for "A"<br>
+    Press <b>B</b> to display the ASL sign for "B"<br>
+    Press <b>C</b> to display the ASL sign for "C"<br>
+    Press <b>R</b> to reset the program. You must do this after every successful test<br>
+    Press <b>T</b> to test for the current sign. You must have the image of the corresponding asl sign on the screen in order to test for the sign<br>
+  </div>
+  <script src="script.js"></script>
+</body>
+
